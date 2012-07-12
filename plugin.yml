@@ -1,0 +1,9 @@
+name: FamousStarterKit
+version: 0.1
+author: Sinnoh
+
+main: me.sinnoh.FamousStarterKit.FamousStarterKit
+
+commands:
+  check:
+  add:
