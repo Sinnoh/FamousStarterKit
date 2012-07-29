@@ -33,12 +33,6 @@ public class FamousStarterKit extends JavaPlugin
 			e.printStackTrace();
 		}
 		getServer().getPluginManager().registerEvents(listener, this);
-		try {
-			FSKConfig.download();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 	
 	

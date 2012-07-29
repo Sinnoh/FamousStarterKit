@@ -29,19 +29,6 @@ public class FSKConfig
 	}
 	
 	
-	public static void download() throws IOException
-	{
-	BufferedInputStream in = new BufferedInputStream(new URL("http://famousserver.de/test.txt").openStream());
-	FileOutputStream fos = new FileOutputStream(plugin.getDataFolder() + "/test.txt");
-	BufferedOutputStream bout = new BufferedOutputStream(fos,1024);
-	byte data[] = new byte[1024];
-			while(in.read(data,0,1024)>=0)
-			{
-				bout.write(data);
-			}
-			bout.close();
-			in.close();
-	}
 	
 
 
